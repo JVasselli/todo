@@ -138,6 +138,7 @@ function ItemDisplay({ item, onItemUpdate, onItemRemoval }) {
 
     return (
         <Container fluid className={`item ${item.completed && 'completed'}`}>
+            <div><h1>ToDoApp by Justin Vasselli</h1></div>
             <Row>
                 <Col xs={1} className="text-center">
                     <Button
